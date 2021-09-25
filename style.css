@@ -1,0 +1,56 @@
+h2 {
+    color:pink(196, 159, 255);
+    margin-left : 30px;
+    margin-right : 30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+*{
+    border:solid;
+    border-color:black;
+
+}
+.header {
+    background-color:rgb(65, 225, 190);
+    display:flex;
+    justify-content: space-between
+}
+.grid {
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-evenly
+}
+.item {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.footer {
+    display: flex;
+   justify-content: flex-end;
+}
+body {
+    background-color: skyblue
+}
+a:link{
+ color:white;
+
+}
+a:visited{
+    color:orange(151, 71, 255)
+}
+.item{
+    position:relative;
+}
+.item p {
+    position :absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+
+}
+.item :hover p{
+    opacity:1;
+}
+
